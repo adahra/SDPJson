@@ -5,17 +5,30 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.Toast;
+import android.widget.ImageView;
+
+import com.bumptech.glide.Glide;
 
 public class MainActivity extends AppCompatActivity {
     private Button SDPJson;
     private Button SDPRetrofit;
     private Button SDPMaps;
+    private Button SDPListCustom;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        ImageView ivGambarMain = (ImageView) findViewById(R.id.ivGambarMain);
+
+        try {
+            // Glide.with(this).load("http://adahra.hol.es/images/image01.jpg").into(ivGambarMain);
+            // Glide.with(this).load("http://goo.gl/gEgYUd").into(ivGambarMain);
+            Glide.with(this).load("http://adahra.hol.es/images/image02.jpg").into(ivGambarMain);
+        } catch (Exception e) {
+
+        }
 
         initKomponen();
     }
@@ -47,5 +60,16 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(sdpMapsIntent);
             }
         });
+
+        SDPListCustom = (Button) findViewById(R.id.btnSDPListCustom);
+        SDPListCustom.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent sdpListCustom = new Intent(MainActivity.this, CustomListActivity.class);
+                startActivity(sdpListCustom);
+            }
+        });
+
+
     }
 }

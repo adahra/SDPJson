@@ -40,7 +40,9 @@
             android:label="@string/title_activity_maps" />
         <activity android:name=".SDPActivity" />
         <activity android:name=".AddActivity" />
-        <activity android:name=".RetrofitActivity"></activity>
+        <activity android:name=".RetrofitActivity" />
+        <activity android:name=".EditActivity" />
+        <activity android:name=".CustomListActivity"></activity>
     </application>
 
 </manifest>

@@ -10,29 +10,21 @@ import java.util.List;
  * Created by blackshadow on 19/07/16.
  */
 public class AnggotaPojo {
-    // @SerializedName("id")
-    // @Expose
+    @Expose
     private String id;
-    // @SerializedName("nama")
-    // @Expose
+    @Expose
     private String nama;
-    // @SerializedName("username")
-    // @Expose
+    @Expose
     private String username;
-    // @SerializedName("password")
-    // @Expose
+    @Expose
     private String password;
-    // @SerializedName("alamat")
-    // @Expose
+    @Expose
     private String alamat;
-    // @SerializedName("latitude")
-    // @Expose
+    @Expose
     private String latitude;
-    // @SerializedName("longitude")
-    // @Expose
+    @Expose
     private String longitude;
-    // @SerializedName("foto")
-    // @Expose
+    @Expose
     private String foto;
 
     /**
@@ -177,25 +169,5 @@ public class AnggotaPojo {
      */
     public void setFoto(String foto) {
         this.foto = foto;
-    }
-
-    public class DataAnggota {
-        @SerializedName("data")
-        @Expose
-        private List<AnggotaPojo> data = new ArrayList<AnggotaPojo>();
-
-        /**
-         * @return The data
-         */
-        public List<AnggotaPojo> getData() {
-            return data;
-        }
-
-        /**
-         * @param data The data
-         */
-        public void setData(List<AnggotaPojo> data) {
-            this.data = data;
-        }
     }
 }

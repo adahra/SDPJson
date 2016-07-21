@@ -11,7 +11,7 @@ import retrofit.http.POST;
  * Created by blackshadow on 19/07/16.
  */
 public interface AnggotaInterface {
-    @GET("/index.php")
+    @GET("/getdata.php")
     void getStream(Callback<List<AnggotaPojo>> callback);
 
     @POST("/tambah.php")
