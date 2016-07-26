@@ -3,4 +3,54 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="color_red">#F0000F</color>
+
+    <color name="bg_bar">#514532</color>
+    <color name="item_pressed">#ff91cee3</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="color_bg_action_bar">#ECE1D4</color>
+    <color name="color_divider_action_bar">#FF0000</color>
+
+    <color name="color_cell_devider">#D0C6BD</color>
+    <color name="color_text">#524637</color>
+    <color name="color_text_statistik">#9B9B9B</color>
+
+    <color name="background_screen">#F4ECE2</color>
+    <color name="button_biru">#5AD6ED</color>
+
+    <!-- ActionBar -->
+    <color name="color_text_actionbar">#5D5C5B</color>
+
+
+    <!-- CODE COLOR -->
+    <color name="normal_blue">#00A1FF</color>
+    <color name="normal_red">#EC3420</color>
+    <color name="normal_black">#333333</color>
+    <color name="normal_green">#5FBA00</color>
+    <color name="normal_brown">#A68571</color>
+    <color name="normal_white">#E9E9E9</color>
+    <color name="normal_yellow">#FFB500</color>
+    <color name="normal_orange">#FF9900</color>
+    <color name="normal_border">#A68571</color>
+
+    <!-- CODE COLOR highlighted -->
+    <color name="normal_blue_highlighted">#0094EA</color>
+    <color name="normal_red_highlighted">#C53234</color>
+    <color name="normal_black_highlighted">#171717</color>
+    <color name="normal_green_highlighted">#54A300</color>
+    <color name="normal_brown_highlighted">#876C5C</color>
+    <color name="normal_white_highlighted">#D4D4D4</color>
+    <color name="normal_yellow_highlighted">#E3A100</color>
+    <color name="normal_orange_highlighted">#D27E00</color>
+    <color name="normal_border_highlighted">#D5D5D5</color>
+
+
+    <color name="transparent_44percent">#44ffffff</color>
+    <color name="transparent_22percent">#22ffffff</color>
+    <color name="transparent_66percent">#7000</color>
+    <color name="transparent_66dpercent">#66dddddd</color>
+    <color name="transparent_70percent">#99ffffff</color>
+
+    <color name="white">#FFFFFF</color>
 </resources>
