@@ -221,7 +221,6 @@ public class SDPActivity extends AppCompatActivity {
                         });
 
                     } catch (JSONException e) {
-                        // TODO Auto-generated catch block
                         Toast.makeText(getBaseContext(), "Gagal",
                                 Toast.LENGTH_LONG).show();
                         e.printStackTrace();
