@@ -1,2 +1,404 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        jar="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/9.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="e11da70cff6a544a45cdc21f419802d9bb9043ac">
+        <dex dex="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appinvite-9.0.2_3d38b0836e746dc1c3e1c5ccd7fc5e10a96e4a44.jar" />
+    </item>
+    <item
+        jar="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/9.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="c96952c162c9f6076f44c5939982cb35491442ea">
+        <dex dex="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-plus-9.0.2_ce38bfb8f12f62bba05f281fcc3d75c3c8f73175.jar" />
+    </item>
+    <item
+        jar="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/9.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="fa472b7cbd3897bf6bed6068ac0b00e494987688">
+        <dex dex="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-auth-9.0.2_71e6edf15e9e9fbe2bed79751b0698d3df0e6580.jar" />
+    </item>
+    <item
+        jar="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="568d5bda0b4d51f90d978ace369bb9ad024d2057">
+        <dex dex="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-auth-common-9.0.2_37c53e8e6c457b363518248834d7ccb4a19fc4bc.jar" />
+    </item>
+    <item
+        jar="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.4.0_1c5463006858bd7d9fc25d39eea3dcc3659f2323.jar" />
+    </item>
+    <item
+        jar="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.4.0_4b9e19d2f88399a1f962353af2707d318b2c5e7d.jar" />
+    </item>
+    <item
+        jar="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.0-alpha3/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="a2bcc25d161a84d8eabde61806dad90029b3ff15">
+        <dex dex="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/pre-dexed/debug/com.android.support.constraint-constraint-layout-1.0.0-alpha3_0fcee9c8e3c6ad9d959a1ecf4553492daf155b3c.jar" />
+    </item>
+    <item
+        jar="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager/9.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="d9ea4cdaafa29ec4651d6e4715788d3fcaa7b913">
+        <dex dex="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tagmanager-9.0.2_30a0755747ef7e0c9cd47c009022ee6257a67741.jar" />
+    </item>
+    <item
+        jar="/home/sdp04/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/pre-dexed/debug/support-annotations-23.4.0_fc6371bc440b088e916123d9a90292138ea0da84.jar" />
+    </item>
+    <item
+        jar="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/9.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="a498fab72f8663c26fbf3d4496eb6b673b17bcae">
+        <dex dex="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-games-9.0.2_ce978f90328ada3938ee7d94855dea9387f91626.jar" />
+    </item>
+    <item
+        jar="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/9.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="6c58c14d15602fea2c50138c73bb107e8b832b62">
+        <dex dex="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-analytics-impl-9.0.2_04f8e71392614c73a10739c492d67693bd3cc1b7.jar" />
+    </item>
+    <item
+        jar="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="94d9cedd04b124aed044ac71c451a292856d854c">
+        <dex dex="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-9.0.2_f258bbc30acc418041ed07c861f755692dd999f5.jar" />
+    </item>
+    <item
+        jar="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/9.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="829c6e46cb221c2102801221c648b77113743e81">
+        <dex dex="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-auth-base-9.0.2_cfef504596edd0ff04c9245b3f26152106018e14.jar" />
+    </item>
+    <item
+        jar="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="9919563cffd8e3732e944d3c437d4b9575a08448">
+        <dex dex="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-common-9.0.2_5a42ac64a21558b5abe063b573dc65d51bd55a1a.jar" />
+    </item>
+    <item
+        jar="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/9.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="9819419ce8d79f3f81a0fc70f9345ac8c843af9c">
+        <dex dex="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-database-connection-9.0.2_605b264abe90df5460239ede76d018283939ccbe.jar" />
+    </item>
+    <item
+        jar="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/9.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="cf16220db9128d91a215aedc739584181d5ca6a4">
+        <dex dex="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-iid-9.0.2_2a587346219b21c8998267d94703de7f242878f3.jar" />
+    </item>
+    <item
+        jar="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage/9.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="cd4c7c54e15d9ccbc448384fa2c4684d69ca73f0">
+        <dex dex="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-storage-9.0.2_1597070e903cbc0bb42a8e8ed7fb4a51602ffb71.jar" />
+    </item>
+    <item
+        jar="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/exploded-aar/com.google.firebase/firebase-config/9.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="604ecf403feb0084dc6d0c12f1677a490cf45e4c">
+        <dex dex="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-config-9.0.2_0da685a4b301f8197a8d85bc0baa122b09f5a4b1.jar" />
+    </item>
+    <item
+        jar="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/9.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="143813b18381b28de1e04aae1d92fcb374a0add9">
+        <dex dex="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-drive-9.0.2_0b666f118d45cbd3d9697f857a1cbcab0ddadaff.jar" />
+    </item>
+    <item
+        jar="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/9.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="f399a2fde7888450cadcaec4974bfd169d8cce43">
+        <dex dex="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tagmanager-api-9.0.2_e473a60b153590f424bc6ffaf631cd23d4806343.jar" />
+    </item>
+    <item
+        jar="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-module/9.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="79e298d7fed2fcada58da7032d07d34ee198a545">
+        <dex dex="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-auth-module-9.0.2_3673dd6992127d99bc0a33f6a7d8a7ec3bd8f9a0.jar" />
+    </item>
+    <item
+        jar="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/9.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="92a1d5f71b0fc8938f1d3f2e6ef984b52b894b4d">
+        <dex dex="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-location-9.0.2_1c6bb7082ad9af892efe5ea062ab131a1a41ecfe.jar" />
+    </item>
+    <item
+        jar="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/9.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="53f10fcd322a3931495d6ca2078a81f4957cdbce">
+        <dex dex="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-fitness-9.0.2_fe6088fe86f5b458df44c3ad5bd53e94d3bf3b82.jar" />
+    </item>
+    <item
+        jar="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/9.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="922c24fbfc4247947fcfaf2b95f295a16a8c3d17">
+        <dex dex="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-crash-9.0.2_d0da804f7cacbf3857474a86321d290fa9254b1e.jar" />
+    </item>
+    <item
+        jar="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/9.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="20e1a0f0de6276a5f36062b655f8b20f8cc00cc4">
+        <dex dex="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-9.0.2_be5b6d86ace020fa4050b980fb8fd001d8cd71e8.jar" />
+    </item>
+    <item
+        jar="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="b3d0809a742c5f768c6aa9efc6decd5c1d6cd227">
+        <dex dex="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-iid-9.0.2_44d4b908535edc49067d2ada4b5cd66398ec07e7.jar" />
+    </item>
+    <item
+        jar="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/9.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="b6af089f583d547bcffc0689b2e80bc7aaa54b15">
+        <dex dex="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-safetynet-9.0.2_ae353b71f5cf1eb16fac876fc5b7aeb79ffa891c.jar" />
+    </item>
+    <item
+        jar="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.4.0_7ea12183e2730737eabe03f40a1314af3b202a2e.jar" />
+    </item>
+    <item
+        jar="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/9.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="a45bc1ed812137b21dddd1cedaa3712b308f0b3f">
+        <dex dex="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-cast-9.0.2_b327b65b9f89397a4259292806688006757c4aeb.jar" />
+    </item>
+    <item
+        jar="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/jars/libs/internal_impl-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="03d38bb042efe3e5ce27ba66b729a9523c36d8fe">
+        <dex dex="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.0_d2a78f72116480e6079cfb063cc53327fef60caf.jar" />
+    </item>
+    <item
+        jar="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/9.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="4ec890171a97b5ab98292f131aa784e0f3792c73">
+        <dex dex="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-database-9.0.2_5815615b43a0ae479179acfbb2b72876768fb226.jar" />
+    </item>
+    <item
+        jar="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/9.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="764d32faf85bc6f7bd2cdcb3a70a482c1884fdd2">
+        <dex dex="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-wearable-9.0.2_64469169dc4b025c6f12c3f4dcb623b7c4319452.jar" />
+    </item>
+    <item
+        jar="/home/sdp04/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.4/695b63d702f505b9b916e02272e3b6381bade7f/gson-2.4.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="0695b63d702f505b9b916e02272e3b6381bade7f">
+        <dex dex="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/pre-dexed/debug/gson-2.4_75d697829e8b06526c99cb41e33d4a8a1254d351.jar" />
+    </item>
+    <item
+        jar="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.4.0_e1048c94b9855150741fc405ed0a456577b6f54b.jar" />
+    </item>
+    <item
+        jar="/home/sdp04/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/pre-dexed/debug/glide-3.7.0_54d4a55762adba27ff0277817a2da13bf67ba962.jar" />
+    </item>
+    <item
+        jar="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/9.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="f4fb6981392ca7680d02fd57d26d6124c141d9d9">
+        <dex dex="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-9.0.2_d8383e650daacfb86d221ff09f19992c801ed68d.jar" />
+    </item>
+    <item
+        jar="/home/sdp04/android-studio/gradle/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.0-alpha3/constraint-layout-solver-1.0.0-alpha3.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="29e762ef46d0cb2b648eb3d25eeb2b29853579fe">
+        <dex dex="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.0-alpha3_75221249576bd2a95aeb8f1214a828598e47332e.jar" />
+    </item>
+    <item
+        jar="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/9.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="fe5b47e764869f1076cb9cfe12801ed2ef4e9117">
+        <dex dex="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-analytics-9.0.2_efdf9f14e8e542380a97ed813da93e628a45fd9d.jar" />
+    </item>
+    <item
+        jar="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="4022261eeea0d92eb2997a68d2c1f084a16abad9">
+        <dex dex="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-9.0.2_e25ce4f584521e84fa0697578b7d68871ed6563e.jar" />
+    </item>
+    <item
+        jar="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage-common/9.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="6ff48ef26bc539c78af4aa061cb9bad6abcbf5e8">
+        <dex dex="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-storage-common-9.0.2_2acbb782b35998cd36e9136271ac5166168e1cae.jar" />
+    </item>
+    <item
+        jar="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/pre-dexed/debug/internal_impl-23.4.0_df85e45ec83c0593b479c02e070c8e4e9e79972e.jar" />
+    </item>
+    <item
+        jar="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="060a7157438a0b1b0706b99c430fb3ecbc5a79a4">
+        <dex dex="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-auth-9.0.2_4fb417c6b401cde5bbd4856227d8c0c8669acf64.jar" />
+    </item>
+    <item
+        jar="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/9.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="0c835e9f3875cf245877c9b17d1c69bc98f16057">
+        <dex dex="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-identity-9.0.2_6ac48956588c906862dbcc8d17ed21da73793971.jar" />
+    </item>
+    <item
+        jar="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="b8e0372ca6dc89ac4fe22b76eeea4f68ece435b8">
+        <dex dex="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-lite-9.0.2_9778c61dad26cb0a67820fee55e33983e49722c9.jar" />
+    </item>
+    <item
+        jar="/home/sdp04/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit/1.9.0/a681c044244d9fc375198588297a39ba78028423/retrofit-1.9.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="a681c044244d9fc375198588297a39ba78028423">
+        <dex dex="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/pre-dexed/debug/retrofit-1.9.0_de24148612860f5a0a17a9077f109ed87ddd865c.jar" />
+    </item>
+    <item
+        jar="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/9.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="e6970f0554f9508c041f1f6960af15cc888c9f35">
+        <dex dex="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gcm-9.0.2_fc49b7d6c72e294a7f5b3c8d80a436c320bdf63d.jar" />
+    </item>
+    <item
+        jar="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/9.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="f2774b1e02e5fbc524590311a744263c3b152d63">
+        <dex dex="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-messaging-9.0.2_c8e088829bf6aaad55c7ffa679dcc03ff718ac8c.jar" />
+    </item>
+    <item
+        jar="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="51a11c41a08f099a204e1b8dcc04f27217de50ec">
+        <dex dex="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-9.0.2_18d7b3e1fb8ae6bb14a7a901ead2ffdd9635747d.jar" />
+    </item>
+    <item
+        jar="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/9.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="bc156efaaee99f1ef6bf471347373a4cbb28e2a1">
+        <dex dex="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-wallet-9.0.2_c7a69d6a1da51adbdacc1748fe81525e4a7ebe87.jar" />
+    </item>
+    <item
+        jar="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="a511c684ea4c2cf31a3377d51e7677cb76696e07">
+        <dex dex="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-impl-9.0.2_771c20809e81337f78ec01d43d89958bda8661bd.jar" />
+    </item>
+    <item
+        jar="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
+        <dex dex="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/pre-dexed/debug/com.android.support-mediarouter-v7-23.0.0_816e50c87b0830a9f4d7350fea3dd831dd32b9fa.jar" />
+    </item>
+    <item
+        jar="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="aec1bc54964a85d851c2c1b1cb7f90f7dbd755ab">
+        <dex dex="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-9.0.2_f5f67d3d53b811ef135ab9ce79d2ad0f34b98179.jar" />
+    </item>
+    <item
+        jar="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/9.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="d900f2a1ff098cac8befe6c023d723e9afb154be">
+        <dex dex="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appindexing-9.0.2_abe242a832e9d42a6dc171683bbe6b78434571e0.jar" />
+    </item>
+    <item
+        jar="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/9.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="2ab5be19bbd34bae74662ea6b2d4451314d92d97">
+        <dex dex="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-vision-9.0.2_2b8ddcaefd0ade916b0256d6458598b5e919b260.jar" />
+    </item>
+    <item
+        jar="/home/sdp04/.gradle/caches/modules-2/files-2.1/com.squareup/otto/1.3.8/cf615176cd1177edf71d3c9605f8dc148fede6be/otto-1.3.8.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="cf615176cd1177edf71d3c9605f8dc148fede6be">
+        <dex dex="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/pre-dexed/debug/otto-1.3.8_f11f76b07498ed037ea8d9cee67d6cdf6ce59db3.jar" />
+    </item>
+    <item
+        jar="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/9.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="7e52b440a26498c56b4f263e215223b5451c955e">
+        <dex dex="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-nearby-9.0.2_902836f2c75a4495c66a414c7c3784dc9d48c713.jar" />
+    </item>
+    <item
+        jar="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/9.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="8c0fc9b1ea0bac0cb31d60c8b1bf2feb0518e3a9">
+        <dex dex="/home/sdp04/AndroidStudioProjects/SDPJSON/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-panorama-9.0.2_2c32646674fbf88c149b1420b52d3bd9788c2032.jar" />
+    </item>
+
+</items>
