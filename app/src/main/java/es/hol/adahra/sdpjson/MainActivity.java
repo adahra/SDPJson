@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
     private Button SDPRetrofit;
     private Button SDPMaps;
     private Button SDPListCustom;
+    private Button SDPCameraUpload;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -70,6 +71,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
+        SDPCameraUpload = (Button) findViewById(R.id.btnSDPCameraUpload);
+        SDPCameraUpload.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent sdpCameraUpload = new Intent(MainActivity.this, CameraActivity.class);
+                startActivity(sdpCameraUpload);
+            }
+        });
     }
 }
