@@ -15,9 +15,18 @@ import android.widget.Button;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import com.android.volley.Request;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.StringRequest;
+import com.android.volley.toolbox.Volley;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+
+import java.util.HashMap;
+import java.util.Map;
 
 public class SDPActivity extends AppCompatActivity {
     private String[] daftarID;
@@ -51,8 +60,78 @@ public class SDPActivity extends AppCompatActivity {
             }
         });
 
-        ambilData();
+        //ambilData();
+
+        RequestData();
     }
+
+    public void RequestData() { //final String User,final String Pass){
+
+        StringRequest PostData = new StringRequest(Request.Method.POST, "http://adahra.hol.es/", new Response.Listener<String>() {
+            @Override
+            public void onResponse(String response) {
+                try {
+                    Toast.makeText(SDPActivity.this, response, Toast.LENGTH_SHORT).show();
+//                    JSONObject res = new JSONObject(response);
+//                    boolean jsonResponse = res.getBoolean("success");
+
+                    JSONObject jObject = new JSONObject(response);
+                    JSONArray menuitemArray = jObject.getJSONArray("data");
+
+
+                    daftarID = new String[menuitemArray.length()];
+                    daftarNama = new String[menuitemArray.length()];
+                    daftarAlamat = new String[menuitemArray.length()];
+                    daftarUserName = new String[menuitemArray.length()];
+                    daftarPassword = new String[menuitemArray.length()];
+                    daftarLongitude = new String[menuitemArray.length()];
+                    daftarLatitude = new String[menuitemArray.length()];
+                    daftarFoto = new String[menuitemArray.length()];
+
+                    for (int i = 0; i < menuitemArray.length(); i++) {
+                        daftarID[i] = menuitemArray.getJSONObject(i).getString("id").toString();
+                        daftarNama[i] = menuitemArray.getJSONObject(i).getString("nama").toString();
+                        daftarAlamat[i] = menuitemArray.getJSONObject(i).getString("alamat").toString();
+                        daftarUserName[i] = menuitemArray.getJSONObject(i).getString("username").toString();
+                        daftarPassword[i] = menuitemArray.getJSONObject(i).getString("password").toString();
+                        daftarLongitude[i] = menuitemArray.getJSONObject(i).getString("longitude").toString();
+                        daftarLatitude[i] = menuitemArray.getJSONObject(i).getString("latitude").toString();
+                        daftarFoto[i] = menuitemArray.getJSONObject(i).getString("foto").toString();
+                    }
+
+                    listProspek = (ListView)findViewById(R.id.listAnggota);
+                    listProspek.setAdapter(new ArrayAdapter(SDPActivity.this, android.R.layout.simple_list_item_1, daftarNama));
+
+                } catch (Exception e) {
+                    Toast.makeText(SDPActivity.this, "error " + e.getMessage(), Toast.LENGTH_LONG).show();
+                    e.printStackTrace();
+                }
+
+                progressDialog.dismiss();
+            }
+        },
+                new Response.ErrorListener() {
+                    @Override
+                    public void onErrorResponse(VolleyError error) {
+                        Toast.makeText(SDPActivity.this,"eror mas",Toast.LENGTH_SHORT).show();
+                    }
+                }
+        ){
+            protected Map<String, String> getParams(){
+                Map<String, String> params = new HashMap<>();
+
+                //params.put("username", User);
+                //params.put("password", Pass);
+
+                return params;
+            }
+        };
+        progressDialog = ProgressDialog.show(SDPActivity.this, "Please Wait", "Connecting", true);
+        progressDialog.setCancelable(true);
+
+        Volley.newRequestQueue(this).add(PostData);
+    }
+
 
     public void ambilData() {
         Thread background = new Thread(new Runnable() {
