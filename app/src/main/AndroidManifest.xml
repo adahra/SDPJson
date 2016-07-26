@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="es.hol.adahra.sdpjson">
 
+    <uses-feature android:name="android.hardware.camera" android:required="true" />
+
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
          Google Maps Android API v2, but you must specify either coarse or fine
@@ -9,13 +11,16 @@
     -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        android:name="android.support.multidex.MultiDexApplication">
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -42,7 +47,8 @@
         <activity android:name=".AddActivity" />
         <activity android:name=".RetrofitActivity" />
         <activity android:name=".EditActivity" />
-        <activity android:name=".CustomListActivity"></activity>
+        <activity android:name=".CustomListActivity" />
+        <activity android:name=".CameraActivity"></activity>
     </application>
 
 </manifest>
